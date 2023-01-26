@@ -1,21 +1,70 @@
+
 .logo {
   font-family: Pacifico, cursive;
   color: crimson;
   font-size: 56px;
 }
-#navlist {
-  font-size: 32px;
+nav{
+  height: 90px;
+  width: 1200px;
+  
+  
+  
+}
+nav .inner-div{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div .nav-list{
+  
+  list-style: none;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.scrolled{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 13px 8px #F4F2ED;
+}
+
+/* #navlist {
+  font-size: 24px;
   font-weight: 600;
 }
-.hek {
+
+nav{
+  height: 90px;
+  width: 100%;
+}
+.inner-div{
+  height: 90px;
+  width: 80%;
   padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
-#navst{
-  position: sticky;
-  top: 0;
-  shape-margin: 10px;
-}
+
 .logo img{
   height: 150px;
   width: 150px;
 }
+.scrolled{
+  
+
+ 
+  position: fixed;
+  top: 0;
+  background-color:ivory;
+  box-shadow:darkgrey;
+  transition-delay: 2ms;
+} */

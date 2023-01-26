@@ -3,7 +3,7 @@ import logo from '../Assets/devloper.svg';
 
 function Home() {
   return (
-    <div className='container d-flex m-3 w-100'>
+    <div id='home' className='container d-flex m-3 w-100'>
       <div className='w-50 m-auto'>
         <h2>Hello !</h2>
         <h1>I'm Thofid</h1>

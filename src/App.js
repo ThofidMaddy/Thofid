@@ -22,18 +22,7 @@ function App() {
       <Skills></Skills>
       <Works></Works>
       <Contacts></Contacts>
-      <div className="container">
-      <Routes>
-        
-        <Route index path="/Home" element={<Home />}/>
-          <Route path='/About' element={<About />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Works" element={<Works />} />
-          <Route path="/contacts" element={<Contacts/>} />
-          <Route path="*" element={<h1>404</h1>} />
-        
-      </Routes>
-      </div>
+      
       </div>
     </div>
   );
